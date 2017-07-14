@@ -1,0 +1,39 @@
+{
+    "name"         : "node-red-contrib-crobfaces",
+    "version"      : "0.0.1",
+    "description"  : "Node Red Node processing a given photo via opencv on raspberry pi ",
+    "license"      : "Apache-2.0",
+    "main"		   : "crobfaces.js",
+    "keywords": [ 
+                 "node-red",
+                 "raspberry",
+                 "pi",
+                 "camera",
+                 "face",
+                 "faces",
+                 "opencv",
+                 "camerapi"
+                 ],
+     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+     },
+	 "dependencies": {
+	 	"is-utf8": "latest",
+	 	"node-uuid" : "latest", 
+	 	"fs-extra" : "latest",
+	 	"fs" : "latest" 
+  	 },
+     "repository": {
+    	    "type": "git",
+    	    "url": "git@github.com:O-Hahn/node-red-contrib-crobfaces"
+    	    	},
+     "node-red" : {
+        "nodes": {
+            "crobfaces": "crobfaces.js"
+        	}
+    },
+     "author": {
+     	"name": "Olaf Hahn",
+     	"email": "olaf_hahn@at.ibm.com"
+  }
+}
